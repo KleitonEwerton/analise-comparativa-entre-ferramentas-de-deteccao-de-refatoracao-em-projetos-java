@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6f53501b-4c2b-4147-82af-8f1a2162edb4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/data/Algorithms-ref-diff-logerros.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Algorithms-ref-diff.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/Algorithms-ref-diff.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Apktool-ref-diff-logerros.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Apktool-ref-diff.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/Apktool-ref-diff.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Hystrix-ref-diff-logerros.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Hystrix-ref-diff.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/Hystrix-ref-diff.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Sa-Token-ref-diff-logerros.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Sa-Token-ref-diff.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/Sa-Token-ref-diff.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/VirtualXposed-ref-diff-logerros.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/VirtualXposed-ref-diff.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/VirtualXposed-ref-diff.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/arthas-ref-diff-logerros.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/arthas-ref-diff.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/arthas-ref-diff.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/auto-ref-diff-logerros.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/auto-ref-diff.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/auto-ref-diff.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/canal-ref-diff-logerros.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/canal-ref-diff.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/canal-ref-diff.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/eureka-ref-diff-logerros.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/eureka-ref-diff.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/eureka-ref-diff.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/gson-ref-diff-logerros.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/gson-ref-diff.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/gson-ref-diff.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/guice-ref-diff-logerros.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/guice-ref-diff.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/guice-ref-diff.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/jadx-ref-diff-logerros.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/jadx-ref-diff.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/jadx-ref-diff.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/jedis-ref-diff-logerros.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/jedis-ref-diff.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/jedis-ref-diff.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/jib-ref-diff-logerros.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/jib-ref-diff.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/jib-ref-diff.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/jsoup-ref-diff-logerros.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/jsoup-ref-diff.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/jsoup-ref-diff.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/log.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/log.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/retrofit-ref-diff-logerros.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/retrofit-ref-diff.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/retrofit-ref-diff.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/seata-ref-diff-logerros.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/seata-ref-diff.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/seata-ref-diff.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/spring-cloud-alibaba-ref-diff-logerros.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/spring-cloud-alibaba-ref-diff.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/spring-cloud-alibaba-ref-diff.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/xxl-job-ref-diff-logerros.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/xxl-job-ref-diff.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/xxl-job-ref-diff.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/zuul-ref-diff-logerros.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/zuul-ref-diff.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/zuul-ref-diff.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/testerefdiff2/v/ExecRefDiff20v.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/testerefdiff2/v/ExecRefDiff20v.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../refactoring-miner2-4-0v/data/log.json" beforeDir="false" afterPath="$PROJECT_DIR$/../refactoring-miner2-4-0v/data/log.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../refactoring-miner2-4-0v/src/main/java/com/mycompany/testerefactoringminer2/v/ExecRefactoringMiner240v.java" beforeDir="false" afterPath="$PROJECT_DIR$/../refactoring-miner2-4-0v/src/main/java/com/mycompany/testerefactoringminer2/v/ExecRefactoringMiner240v.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/data-rdiff/Algorithms-ref-diff.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../tratamento/data-rdiff/Algorithms-ref-diff.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/data-rdiff/Apktool-ref-diff.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../tratamento/data-rdiff/Apktool-ref-diff.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/data-rdiff/Hystrix-ref-diff.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../tratamento/data-rdiff/Hystrix-ref-diff.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/data-rdiff/Sa-Token-ref-diff.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../tratamento/data-rdiff/Sa-Token-ref-diff.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/data-rdiff/VirtualXposed-ref-diff.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../tratamento/data-rdiff/VirtualXposed-ref-diff.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/data-rdiff/arthas-ref-diff.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../tratamento/data-rdiff/arthas-ref-diff.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/data-rdiff/auto-ref-diff.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../tratamento/data-rdiff/auto-ref-diff.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/data-rdiff/canal-ref-diff.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../tratamento/data-rdiff/canal-ref-diff.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/data-rdiff/eureka-ref-diff.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../tratamento/data-rdiff/eureka-ref-diff.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/data-rdiff/gson-ref-diff-logerros.json" beforeDir="false" afterPath="$PROJECT_DIR$/../tratamento/data-rdiff/gson-ref-diff-logerros.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/data-rdiff/gson-ref-diff.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../tratamento/data-rdiff/gson-ref-diff.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/data-rdiff/guice-ref-diff.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../tratamento/data-rdiff/guice-ref-diff.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/data-rdiff/jadx-ref-diff.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../tratamento/data-rdiff/jadx-ref-diff.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/data-rdiff/jedis-ref-diff.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../tratamento/data-rdiff/jedis-ref-diff.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/data-rdiff/jib-ref-diff.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../tratamento/data-rdiff/jib-ref-diff.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/data-rdiff/jsoup-ref-diff.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../tratamento/data-rdiff/jsoup-ref-diff.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/data-rdiff/log.json" beforeDir="false" afterPath="$PROJECT_DIR$/../tratamento/data-rdiff/log.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/data-rdiff/retrofit-ref-diff.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../tratamento/data-rdiff/retrofit-ref-diff.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/data-rdiff/seata-ref-diff.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../tratamento/data-rdiff/seata-ref-diff.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/data-rdiff/spring-cloud-alibaba-ref-diff.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../tratamento/data-rdiff/spring-cloud-alibaba-ref-diff.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/data-rdiff/xxl-job-ref-diff.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../tratamento/data-rdiff/xxl-job-ref-diff.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/data-rdiff/zuul-ref-diff.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../tratamento/data-rdiff/zuul-ref-diff.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/data-rminer/Algorithms-ref-diff.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../tratamento/data-rminer/Algorithms-ref-diff.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tratamento/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rdiff/incidencia-refatoracao/data-rdiff/incidencia_Algorithms-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rdiff/incidencia-refatoracao/data-rdiff/incidencia_Apktool-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rdiff/incidencia-refatoracao/data-rdiff/incidencia_Hystrix-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rdiff/incidencia-refatoracao/data-rdiff/incidencia_Sa-Token-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rdiff/incidencia-refatoracao/data-rdiff/incidencia_VirtualXposed-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rdiff/incidencia-refatoracao/data-rdiff/incidencia_arthas-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rdiff/incidencia-refatoracao/data-rdiff/incidencia_auto-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rdiff/incidencia-refatoracao/data-rdiff/incidencia_canal-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rdiff/incidencia-refatoracao/data-rdiff/incidencia_eureka-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rdiff/incidencia-refatoracao/data-rdiff/incidencia_gson-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rdiff/incidencia-refatoracao/data-rdiff/incidencia_guice-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rdiff/incidencia-refatoracao/data-rdiff/incidencia_jadx-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rdiff/incidencia-refatoracao/data-rdiff/incidencia_jedis-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rdiff/incidencia-refatoracao/data-rdiff/incidencia_jib-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rdiff/incidencia-refatoracao/data-rdiff/incidencia_jsoup-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rdiff/incidencia-refatoracao/data-rdiff/incidencia_retrofit-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rdiff/incidencia-refatoracao/data-rdiff/incidencia_seata-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rdiff/incidencia-refatoracao/data-rdiff/incidencia_spring-cloud-alibaba-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rdiff/incidencia-refatoracao/data-rdiff/incidencia_xxl-job-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rdiff/incidencia-refatoracao/data-rdiff/incidencia_zuul-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rdiff/sem-linhas-repetidas/data-rdiff/incidencia_Algorithms-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rdiff/sem-linhas-repetidas/data-rdiff/incidencia_Apktool-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rdiff/sem-linhas-repetidas/data-rdiff/incidencia_Hystrix-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rdiff/sem-linhas-repetidas/data-rdiff/incidencia_Sa-Token-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rdiff/sem-linhas-repetidas/data-rdiff/incidencia_VirtualXposed-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rdiff/sem-linhas-repetidas/data-rdiff/incidencia_arthas-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rdiff/sem-linhas-repetidas/data-rdiff/incidencia_auto-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rdiff/sem-linhas-repetidas/data-rdiff/incidencia_canal-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rdiff/sem-linhas-repetidas/data-rdiff/incidencia_eureka-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rdiff/sem-linhas-repetidas/data-rdiff/incidencia_gson-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rdiff/sem-linhas-repetidas/data-rdiff/incidencia_guice-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rdiff/sem-linhas-repetidas/data-rdiff/incidencia_jadx-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rdiff/sem-linhas-repetidas/data-rdiff/incidencia_jedis-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rdiff/sem-linhas-repetidas/data-rdiff/incidencia_jib-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rdiff/sem-linhas-repetidas/data-rdiff/incidencia_jsoup-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rdiff/sem-linhas-repetidas/data-rdiff/incidencia_retrofit-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rdiff/sem-linhas-repetidas/data-rdiff/incidencia_seata-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rdiff/sem-linhas-repetidas/data-rdiff/incidencia_spring-cloud-alibaba-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rdiff/sem-linhas-repetidas/data-rdiff/incidencia_xxl-job-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rdiff/sem-linhas-repetidas/data-rdiff/incidencia_zuul-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rdiff/total_refatoracoes_rdiff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rminer/incidencia-refatoracao/data-rminer/incidencia_Algorithms-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rminer/incidencia-refatoracao/data-rminer/incidencia_Apktool-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rminer/incidencia-refatoracao/data-rminer/incidencia_Hystrix-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rminer/incidencia-refatoracao/data-rminer/incidencia_Sa-Token-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rminer/incidencia-refatoracao/data-rminer/incidencia_VirtualXposed-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rminer/incidencia-refatoracao/data-rminer/incidencia_arthas-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rminer/incidencia-refatoracao/data-rminer/incidencia_auto-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rminer/incidencia-refatoracao/data-rminer/incidencia_canal-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rminer/incidencia-refatoracao/data-rminer/incidencia_eureka-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rminer/incidencia-refatoracao/data-rminer/incidencia_gson-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rminer/incidencia-refatoracao/data-rminer/incidencia_guice-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rminer/incidencia-refatoracao/data-rminer/incidencia_jadx-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rminer/incidencia-refatoracao/data-rminer/incidencia_jedis-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rminer/incidencia-refatoracao/data-rminer/incidencia_jib-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rminer/incidencia-refatoracao/data-rminer/incidencia_jsoup-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rminer/incidencia-refatoracao/data-rminer/incidencia_retrofit-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rminer/incidencia-refatoracao/data-rminer/incidencia_seata-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rminer/incidencia-refatoracao/data-rminer/incidencia_spring-cloud-alibaba-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rminer/incidencia-refatoracao/data-rminer/incidencia_xxl-job-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rminer/incidencia-refatoracao/data-rminer/incidencia_zuul-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rminer/sem-linhas-repetidas/data-rminer/incidencia_Algorithms-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rminer/sem-linhas-repetidas/data-rminer/incidencia_Apktool-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rminer/sem-linhas-repetidas/data-rminer/incidencia_Hystrix-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rminer/sem-linhas-repetidas/data-rminer/incidencia_Sa-Token-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rminer/sem-linhas-repetidas/data-rminer/incidencia_VirtualXposed-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rminer/sem-linhas-repetidas/data-rminer/incidencia_arthas-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rminer/sem-linhas-repetidas/data-rminer/incidencia_auto-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rminer/sem-linhas-repetidas/data-rminer/incidencia_canal-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rminer/sem-linhas-repetidas/data-rminer/incidencia_eureka-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rminer/sem-linhas-repetidas/data-rminer/incidencia_gson-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rminer/sem-linhas-repetidas/data-rminer/incidencia_guice-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rminer/sem-linhas-repetidas/data-rminer/incidencia_jadx-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rminer/sem-linhas-repetidas/data-rminer/incidencia_jedis-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rminer/sem-linhas-repetidas/data-rminer/incidencia_jib-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rminer/sem-linhas-repetidas/data-rminer/incidencia_jsoup-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rminer/sem-linhas-repetidas/data-rminer/incidencia_retrofit-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rminer/sem-linhas-repetidas/data-rminer/incidencia_seata-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rminer/sem-linhas-repetidas/data-rminer/incidencia_spring-cloud-alibaba-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rminer/sem-linhas-repetidas/data-rminer/incidencia_xxl-job-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rminer/sem-linhas-repetidas/data-rminer/incidencia_zuul-ref-diff.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tratamento/output-rminer/total_refatoracoes_rminer.csv" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2XZms1NYwNoLo9mjbuZ8sh8MBQz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/kleit/OneDrive/Documentos/TCC/refactoring-tools-analysis/refactoring-miner2-4-0v"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6f53501b-4c2b-4147-82af-8f1a2162edb4" name="Changes" comment="" />
+      <created>1698845179034</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698845179034</updated>
+    </task>
+    <servers />
+  </component>
+</project>
