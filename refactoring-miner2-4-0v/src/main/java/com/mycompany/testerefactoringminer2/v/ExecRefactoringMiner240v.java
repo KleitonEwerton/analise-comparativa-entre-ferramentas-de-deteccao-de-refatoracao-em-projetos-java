@@ -29,11 +29,13 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExecRefactoringMiner240v {
 
+    // Configurações
     public static String dataPasta = "data/";
     public static String logFile = "data/log.json";
     public static long exeMaxTime = 3600000;
     public static Date dataInicio;
 
+    // Main class
     public static void main(String[] args) throws Exception {
         String caminhoDoArquivo = dataPasta + "java-teste.xlsx";
 
@@ -47,14 +49,16 @@ public class ExecRefactoringMiner240v {
             dataInicio = new Date();
 
             final Thread[] thread = new Thread[1];
-            final boolean[] isTimedOut = {false};
+            final boolean[] isTimedOut = { false };
 
+            // Cria uma thread para executar a tarefa
             thread[0] = new Thread(() -> {
                 long startTime = System.currentTimeMillis();
                 try {
                     checar(nomeProjeto, url);
                 } catch (Exception e) {
-                    salvarLog(nomeProjeto, dataInicio, new Date(), 0, false, 0, "Mensagem: \n   " + e.getMessage() + "\n\nException: \n   " + e.toString() + "\n\nTEMPO MAXIMO ATINGIDO\n");
+                    salvarLog(nomeProjeto, dataInicio, new Date(), 0, false, 0, "Mensagem: \n   " + e.getMessage()
+                            + "\n\nException: \n   " + e.toString() + "\n\nTEMPO MAXIMO ATINGIDO\n");
                 }
                 long endTime = System.currentTimeMillis();
                 long executionTime = endTime - startTime;
@@ -64,22 +68,26 @@ public class ExecRefactoringMiner240v {
 
             });
 
+            // Inicia a thread
             thread[0].start();
 
             try {
                 thread[0].join(exeMaxTime); // Aguarda a conclusão da tarefa ou o tempo de execução
                 if (isTimedOut[0]) {
 
+                    // Interrompe a thread se exceder o tempo
                     thread[0].interrupt(); // Interrompe a thread se exceder o tempo
                 }
             } catch (InterruptedException e) {
-                salvarLog(nomeProjeto, dataInicio, new Date(), 0, false, 0, "Mensagem: \n   " + e.getMessage() + "\n\nException: \n   " + e.toString() + "\n\nTEMPO MAXIMO ATINGIDO\n");
+                salvarLog(nomeProjeto, dataInicio, new Date(), 0, false, 0, "Mensagem: \n   " + e.getMessage()
+                        + "\n\nException: \n   " + e.toString() + "\n\nTEMPO MAXIMO ATINGIDO\n");
             }
 
         }
 
     }
 
+    // Funções
     public static void checar(String projectName, String projectUrl) throws Exception {
 
         long tempoInicial = System.currentTimeMillis();
@@ -135,7 +143,8 @@ public class ExecRefactoringMiner240v {
         System.out.println("Salvando dados...");
 
         salvarPlanilha(refactoringMap, projectName);
-        salvarLog(projectName, dataInicio, dataTermino, tempoDecorrido, true, quantidadeDecommitsAnalisados, "Sucesso!");
+        salvarLog(projectName, dataInicio, dataTermino, tempoDecorrido, true, quantidadeDecommitsAnalisados,
+                "Sucesso!");
         salvarLogsErros(erros, projectName);
 
         System.out.println("Finalizado!");
@@ -219,12 +228,13 @@ public class ExecRefactoringMiner240v {
 
         try (FileInputStream arquivo = new FileInputStream(caminhoDoArquivo)) {
             Workbook workbook = new XSSFWorkbook(arquivo);
-            Sheet sheet = workbook.getSheetAt(0); // Assumindo que a planilha que você deseja ler está na primeira aba (índice 0)
+            Sheet sheet = workbook.getSheetAt(0); // Assumindo que a planilha que você deseja ler está na primeira aba
+                                                  // (índice 0)
             System.out.println("Projetos Listados:");
             for (Row row : sheet) {
                 String nomeProjeto = row.getCell(0).getStringCellValue();
                 String url = row.getCell(1).getStringCellValue();
-                String[] atributos = {url};
+                String[] atributos = { url };
                 projetos.put(nomeProjeto, atributos);
                 System.out.println(" - " + nomeProjeto + " URL:" + url);
             }
@@ -238,7 +248,9 @@ public class ExecRefactoringMiner240v {
 
     public static void salvarTempo(String projectName, long tempoDecorrido) throws IOException {
 
-        FileWriter arquivo = new FileWriter(dataPasta + projectName + ".txt", true); // O segundo argumento "true" indica que você vai acrescentar ao arquivo existente, se houver.
+        FileWriter arquivo = new FileWriter(dataPasta + projectName + ".txt", true); // O segundo argumento "true"
+                                                                                     // indica que você vai acrescentar
+                                                                                     // ao arquivo existente, se houver.
         // Substitua pelo nome do seu projeto.
         try (PrintWriter gravarArquivo = new PrintWriter(arquivo)) {
             // Substitua pelo nome do seu projeto.
@@ -247,12 +259,13 @@ public class ExecRefactoringMiner240v {
         }
     }
 
-    public static void salvarLog(String nomeProjeto, Date dataInicio, Date dataTermino, long tempoDecorrido, boolean sucesso, int numeroCommits, String mensage) {
+    public static void salvarLog(String nomeProjeto, Date dataInicio, Date dataTermino, long tempoDecorrido,
+            boolean sucesso, int numeroCommits, String mensage) {
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 
         // Criar um objeto de log
-        LogEntry logEntry = new LogEntry(nomeProjeto, dateFormat.format(dataInicio), dateFormat.format(dataTermino), tempoDecorrido, sucesso, numeroCommits, mensage
-        );
+        LogEntry logEntry = new LogEntry(nomeProjeto, dateFormat.format(dataInicio), dateFormat.format(dataTermino),
+                tempoDecorrido, sucesso, numeroCommits, mensage);
 
         // Converter o objeto em JSON
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
